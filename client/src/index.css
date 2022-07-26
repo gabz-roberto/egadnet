@@ -1,0 +1,20 @@
+:root {
+  --primary-color: #002F6D;
+  --primary-color-hover: #003f92;
+  --secondary-color: #D07200;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+}
