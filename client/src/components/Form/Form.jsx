@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Title from "../Title/Title";
 
-import instance from "../../api/api";
-
 import "./Form.css";
 
 const Form = () => {
